@@ -3,7 +3,8 @@ dari soal yang diberikan penyelesaian dapat mengunakan LEFT JOIN. untuk solusi d
 
 SOAL 2
 dari soal yang diberikan, jujur tools yang diberikan ini baru buat saya, jadi saya lakukan semaksimal mungkin untuk
-mengunakan gRPC. saya mendapat blocker salama pengerjaan yaitu gagal import annotations nya. namun blocker tersebut
+mengunakan gRPC. saya mendapat blocker salama pengerjaan yaitu gagal import annotations nya. penginstallan protoc,
+gRPC gateway, explore buf dll, namun blocker tersebut
 akhirnya dapat terselesaikan. dari soal tersebut saya membuat 2 REST API
 yaitu
 - localhost:8081/listMovie/{searchword}/pagination
