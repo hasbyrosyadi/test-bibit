@@ -1,0 +1,28 @@
+SOAL 1
+dari soal yang diberikan penyelesaian dapat mengunakan LEFT JOIN. untuk solusi dan data dapat dilihat di folder SOAL1
+
+SOAL 2
+dari soal yang diberikan, jujur tools yang diberikan ini baru buat saya, jadi saya lakukan semaksimal mungkin untuk
+mengunakan gRPC. saya mendapat blocker salama pengerjaan yaitu gagal import annotations nya. namun blocker tersebut
+akhirnya dapat terselesaikan. dari soal tersebut saya membuat 2 REST API
+yaitu
+- localhost:8081/listMovie/{searchword}/pagination
+localhost:8081/listMovie/Batman/2 -> contoh
+dan result dapat dilihat di folder IMG
+
+- localhost:8081/listMovie/{imdbID}
+localhost:8081/detailMovie/tt0106364 -> contoh
+dan result dapat dilihat di folder IMG
+
+untuk insert ke DB saya mengupayakan menggunakan GORM namun gagal tereksekusi hingga create
+untuk Unit Test dapat dilihat di folder server/usecase/service_test.go
+
+SOAL 3
+dari soal yang diberikan saya menemukan kekeliruan dalam soal, sehingga saya merivisi soal dengan mengkomen kodingan tersebut
+dan menggantinya dengan yang bener.
+- untuk solusinya pun saya mengacu ke soal yang sudah saya revisi
+namun apabila mengacu ke soal yang belum di revisi, di solusi saya pun, sudah saya berikan, dengan menguncomment line code
+yang saya berikan.
+
+SOAL 4
+dari soal yang diberikan saya menggunakan map untuk memberikan key word yang 1 grup dengan word lain yang seragam.
