@@ -10,8 +10,8 @@ func main() {
 	result := findFirstStringInBracket(data)
 	resultNew := findFirstStringInBracketNew(data)
 
-	fmt.Println(result)
-	fmt.Println(resultNew)
+	fmt.Println("sebelum refactor = ", result)
+	fmt.Println("seteleah refactor = ", resultNew)
 }
 
 // in assessment
